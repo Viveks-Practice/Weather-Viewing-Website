@@ -25,7 +25,7 @@ function parseCurrentWeather({ current_weather, daily }) {
   const {
     temperature: currentTemp,
     windspeed: windSpeed,
-    weatherCode: iconCode,
+    weathercode: iconCode,
   } = current_weather;
 
   //this is called destructuring: basically pulling variables/object out of a larger existing object, and renaming them

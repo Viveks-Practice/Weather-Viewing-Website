@@ -9,37 +9,48 @@
       <div class="header-left">
         <img class="weather-icon large" src="icons/sun.svg" data-current-icon />
         <div class="header-current-temp">
-          <span data-current-temp>31</span>&deg;
+          <span data-current-temp>31</span><span>&deg;
         </div>
       </div>
       <div class="header-right">
         <div class="info-group">
           <div class="label">High</div>
-          <div><span data-current-high>32</span>&deg;</div>
+          <div>
+            <span class="day-card-temp" data-current-high>32</span
+            ><span class="day-card-temp">&deg;</span>
+          </div>
         </div>
         <div class="info-group">
           <div class="label">FL High</div>
-          <div><span data-current-fl-high>27</span>&deg;</div>
+          <div>
+            <span class="day-card-temp" data-current-fl-high>27</span
+            ><span class="day-card-temp">&deg;</span>
+          </div>
         </div>
         <div class="info-group">
           <div class="label">Wind</div>
           <div>
-            <span data-current-wind>9</span
+            <span class="day-card-temp" data-current-wind>9</span
             ><span class="value-sub-info">mph</span>
           </div>
         </div>
         <div class="info-group">
           <div class="label">Low</div>
-          <div><span data-current-low>19</span>&deg;</div>
+          <div>
+            <span class="day-card-temp" data-current-low>19</span
+            ><span class="day-card-temp">&deg;</span>
+          </div>
         </div>
         <div class="info-group">
           <div class="label">FL Low</div>
-          <div><span data-current-fl-low>12</span>&deg;</div>
+          <div>
+            <span class="day-card-temp" data-current-fl-low>12</span><span class="day-card-temp">&deg;</span>
+          </div>
         </div>
         <div class="info-group">
           <div class="label">Precip</div>
           <div>
-            <span data-current-precip>0.1</span
+            <span class="day-card-temp" data-current-precip>0.1</span
             ><span class="value-sub-info">in</span>
           </div>
         </div>
@@ -443,7 +454,10 @@
       <div class="day-card">
         <img data-icon class="weather-icon" />
         <div class="day-card-day" data-date></div>
-        <div><span data-temp></span><span>&deg;</span></div>
+        <div>
+          <span class="day-card-temp" data-temp></span
+          ><span class="day-card-temp">&deg;</span>
+        </div>
       </div>
     </template>
     <template id="hour-row-template">
@@ -451,7 +465,7 @@
         <td>
           <div class="info-group">
             <div class="label" data-day></div>
-            <div data-time></div>
+            <div class="day-card-temp" data-time></div>
           </div>
         </td>
         <td>
@@ -460,20 +474,20 @@
         <td>
           <div class="info-group">
             <div class="label">TEMP</div>
-            <div><span data-temp></span><span>&deg;</span></div>
+            <div><span class="day-card-temp" data-temp></span><span class="day-card-temp">&deg;</span></div>
           </div>
         </td>
         <td>
           <div class="info-group">
             <div class="label">FL TEMP</div>
-            <div><span data-fl-temp></span><span>&deg;</span></div>
+            <div><span class="day-card-temp" data-fl-temp></span><span class="day-card-temp">&deg;</span></div>
           </div>
         </td>
         <td>
           <div class="info-group">
             <div class="label">WIND</div>
             <div>
-              <span data-wind></span><span class="value-sub-info">mph</span>
+              <span class="day-card-temp" data-wind></span><span class="value-sub-info">mph</span>
             </div>
           </div>
         </td>
@@ -481,7 +495,7 @@
           <div class="info-group">
             <div class="label">PRECIP</div>
             <div>
-              <span data-precip></span><span class="value-sub-info">in</span>
+              <span class="day-card-temp" data-precip></span><span class="value-sub-info">in</span>
             </div>
           </div>
         </td>

@@ -33,18 +33,18 @@ body {
 }
 
 .weather-icon {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 
 .weather-icon.large {
-  width: 80px;
-  height: 80px;
+  width: 160px;
+  height: 160px;
 }
 
 .header-current-temp {
-  font-size: 2rem;
+  font-size: 5rem;
   margin-left: 1rem;
 }
 
@@ -66,18 +66,18 @@ body {
 .label {
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 0.6rem;
+  font-size: 1rem;
   color: hsl(200, 100%, 20%);
 }
 
 .value-sub-info {
   font-weight: lighter;
-  font-size: 0.75rem;
+  font-size: 1.5rem;
 }
 
 .day-section {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 75px);
+  grid-template-columns: repeat(auto-fit, 120px);
   gap: 0.5rem;
   justify-content: center;
   padding: 1rem;
@@ -93,9 +93,13 @@ body {
 }
 
 .day-card-day {
-  font-size: 0.75rem;
+  font-size: 1.25rem;
   color: hsl(200, 100%, 20%);
   margin-top: 0.5rem;
+}
+
+.day-card-temp {
+  font-size: 2rem;
 }
 
 .hour-section {
@@ -113,5 +117,5 @@ body {
 }
 
 .hour-row > td {
-  padding: 0.25rem 0.5rem;
+  padding: 0.75rem 1.5rem;
 }

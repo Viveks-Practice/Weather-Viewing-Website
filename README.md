@@ -73,8 +73,46 @@ The application is split into three components:
 git clone https://github.com/Viveks-Practice/Weather-Viewing-Website.git
 ```
 
-![Github Repo Clone Link!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/git-clone-success.png)
+![Clone the project!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/git-clone-success.png)
 
 ### Install the required dependencies
 
 1. Navigate into the newly created folder with command
+
+```
+cd Weather-Viewing-Website
+```
+
+![Change Directory!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/cd-weather-viewing-app.png)
+
+2. Install all required dependencies with npm
+
+```
+npm install
+```
+
+![Install Dependencies!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/install-dependencies.png)
+
+3. Run the website
+
+```
+npm run dev
+```
+
+![Run the website!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/run-the-program.png)
+
+4. Click the URL provided to open the project webpage (or type it into a web browser)
+
+```
+ http://127.0.0.1:5173/
+```
+
+![Click the provided link!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/url-provided.png)
+
+5. Click "Allow" when the website prompts you to use your device's location
+
+![Click Allow!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/click-allow.png)
+
+6. You now have access to the website! Scroll down to view the hourly weather of the next 7 days!
+
+![Done!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/done.png)

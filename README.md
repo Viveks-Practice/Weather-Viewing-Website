@@ -1,8 +1,12 @@
 # Weather Viewing Website
 
-# Table of Contents
+## Table of Contents
 
 - [Overview](#overview)
+- [Website Sections](#website-sections)
+  - [Top Section - Today's Weather](#top-section---todays-weather)
+  - [Middle Section - 7 Day Forecast](#middle-section---7-day-forecast)
+  - [Bottom Section - Hourly Weather List](#bottom-section---hourly-weather-list)
 
 ## Overview
 

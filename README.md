@@ -6,7 +6,7 @@ Check out the weather forecast in your area with this neat web app! The applicat
 
 ![Weather Example Image!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/weather-app-image.png)
 
-## Sections
+## Website Sections
 
 The application is split into three components:
 

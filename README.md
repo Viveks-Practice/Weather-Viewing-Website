@@ -1,5 +1,9 @@
 # Weather Viewing Website
 
+# Table of Contents
+
+- [Overview](#overview-1)
+
 ## Overview
 
 Check out the weather forecast in your area with this neat web app! The application will request to use the current location of your device to show the current weather, the weather for the 7-day forecast, as well as the 7-day hourly weather in a detailed list! This project was written using javascript, html, and css!

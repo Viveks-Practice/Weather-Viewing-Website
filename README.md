@@ -69,4 +69,12 @@ The application is split into three components:
 1. Open a cmd or terminal window, and navigate to the folder you wish to install the project's files
 2. Type "git clone (the url of the repo copied from previous steps)"
 
+```
+git clone https://github.com/Viveks-Practice/Weather-Viewing-Website.git
+```
+
 ![Github Repo Clone Link!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/git-clone-success.png)
+
+### Install the required dependencies
+
+1. Navigate into the newly created folder with command

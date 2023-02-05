@@ -2,7 +2,7 @@
 
 # Table of Contents
 
-- [Overview](#overview-1)
+- [Overview](#overview)
 
 ## Overview
 

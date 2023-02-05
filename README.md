@@ -8,6 +8,10 @@
   - [Middle Section - 7 Day Forecast](#middle-section---7-day-forecast)
   - [Bottom Section - Hourly Weather List](#bottom-section---hourly-weather-list)
 - [How to install and run the project](#how-to-install-and-run-the-project)
+  - [Retrieve the project URL](#retrieve-the-project-url)
+  - [Clone the project](#clone-the-project)
+  - [Install the required dependencies](#install-the-required-dependencies)
+  - [Launch the website](#launch-the-website)
 
 ## Overview
 
@@ -93,7 +97,9 @@ npm install
 
 ![Install Dependencies!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/install-dependencies.png)
 
-3. Run the website
+### Launch the website
+
+1. Run the website
 
 ```
 npm run dev
@@ -101,7 +107,7 @@ npm run dev
 
 ![Run the website!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/run-the-program.png)
 
-4. Click the URL provided to open the project webpage (or type it into a web browser)
+2. Click the URL provided to open the project webpage (or type it into a web browser)
 
 ```
  http://127.0.0.1:5173/
@@ -109,10 +115,10 @@ npm run dev
 
 ![Click the provided link!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/url-provided.png)
 
-5. Click "Allow" when the website prompts you to use your device's location
+3. Click "Allow" when the website prompts you to use your device's location
 
 ![Click Allow!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/click-allow.png)
 
-6. You now have access to the website! Scroll down to view the hourly weather of the next 7 days!
+4. You now have access to the website! Scroll down to view the hourly weather of the next 7 days!
 
 ![Done!](https://github.com/Viveks-Practice/Weather-Viewing-Website/blob/main/images/done.png)
